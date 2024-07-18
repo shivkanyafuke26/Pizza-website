@@ -499,7 +499,7 @@ section{
 
     .contact-form textarea {
         height: 180px;
-        width: ;
+        /* width: ; */
     }
 
     button {
@@ -1003,3 +1003,12 @@ section{
 
  /*-------------------------------------------------------------------- 13. end footre --------------------------------------------------------------------*/
  
+/* media query */
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      font-size: auto;
+    }
+  }
+  
